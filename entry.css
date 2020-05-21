@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+
+
+body{
+background-color:#696969;
+width:1000px;
+height:1000px;
+margin-left:auto;
+margin-right:auto;
+}
+
+form{
+margin:0 auto;
+width:500px;
+height:160px;
+padding: 1em;
+border: 1px solid #fff;
+border-radius: 1em;
+}
+
+.parts{
+margin-bottom:1em;
+}
+
+label{
+display: inline-block;
+width: 250px;
+font-size:20px;
+text-align:right;
+}
+
+#entry-d{
+font-size:30px;
+}
+
+#sub{
+text-align:center;
+}
+
+p{
+text-align:center;
+font-size:70px;
+font-family: 'Sacramento', cursive;
+color:#99ccff;
+}
+
+.fadein {
+    opacity: 0;
+    animation: fadein infinite 3s ease forwards;
+}
+@keyframes fadein {
+    100% {  opacity: 1;}
+}
+ 
+/*以下遅延の指定*/
+.dot01 {animation-delay: 0.5s;}
+.dot02 {animation-delay: 1s;}
+.dot03 {animation-delay: 1.5s;}
+.dot04 {animation-delay: 2s;}
